@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL:  'http://localhost:8000/api/'
+    baseURL:  'https://task-api-1.herokuapp.com/api/'
 });
 
 export default instance;
