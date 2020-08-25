@@ -15,7 +15,7 @@ app.use(history({
 app.use(staticFileMiddleware);
 
 app.get('/', function (req, res) {
-  res.render(path.join(__dirname + '/dist/index.html'));
+  res.render(path.join(__dirname + '/public/index.html'));
 });
 
 var server = app.listen(process.env.PORT || 3000, function () {
