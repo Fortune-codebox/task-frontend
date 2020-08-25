@@ -4,7 +4,7 @@ const history = require('connect-history-api-fallback');
 const compression = require('compression');
 const app = express();
 
-const staticFileMiddleware = express.static(path.join(__dirname + '/dist'));
+const staticFileMiddleware = express.static(path.join(__dirname + '/public'));
 
 app.use(staticFileMiddleware);
 app.use(compression());
