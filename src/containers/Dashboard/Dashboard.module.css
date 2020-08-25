@@ -1,0 +1,23 @@
+.Dashboard{
+    display: flex
+}
+
+.Side{
+    width: 20%;
+    position: fixed;
+    top: 10;
+    /* left: 0; */
+    height: 100%;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);}
+
+.Content{
+    width: 70%;
+    margin-left: 25%;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+}
+.Button {
+    margin-left: 4px;
+}
