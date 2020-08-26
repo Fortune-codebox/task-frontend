@@ -18,7 +18,7 @@ class Layout extends React.Component {
     }
    render() {
     return <Aux>
-        <Toolbar toggle={this.toggleSideDrawer} />
+        <Toolbar toggle={this.toggleSideDrawer} logout={this.props.logout} isAuth={this.props.isAuth} />
         <SideDrawer open={this.state.showSideDrawer}  closed={this.sideDrawerClosedHandler} />
         <main className={layoutCss.Content}>
             {this.props.children}
